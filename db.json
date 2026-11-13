@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "description": "Single source of content for the portfolio. Edit this file, not the components. Client names are confidential and must never appear here.",
+    "updated": "2026-11-13"
+  },
+  "profile": {
+    "name": "Gladys Muthoni Ndungu",
+    "shortName": "Gladys Ndungu",
+    "initials": "GN",
+    "title": "AI Evaluation Specialist",
+    "headline": "RLHF & LLM Red Teaming",
+    "rotating": [
+      "expert benchmark problems",
+      "partial-credit rubrics",
+      "RLHF and SFT data",
+      "red-teaming for safety",
+      "verified ground truth"
+    ],
+    "tagline": "I help large language models reason accurately about math, finance and code, and I write down exactly why an answer is wrong.",
+    "summary": [
+      "AI evaluation specialist and Stanford PhD in Computational Finance who helps large language models (LLMs) reason accurately about math, finance and code.",
+      "Has authored 120+ expert benchmark problems with partial-credit rubrics, evaluated 2,000+ model responses for reinforcement learning from human feedback (RLHF) and supervised fine-tuning (SFT), and reached >95% inter-rater agreement on safety and policy scoring.",
+      "Equally strong on generalist evaluation: careful reading, strict guideline adherence and clear written explanations of exactly why an answer is wrong. Backed by 6+ years of production machine learning, quantitative risk modeling and Python engineering."
+    ],
+    "region": "Puerto Rico, USA",
+    "workMode": "Remote",
+    "availability": "Open to AI training and evaluation roles",
+    "links": [
+      { "id": "github", "label": "GitHub", "icon": "bi-github", "url": "https://github.com/Gladys-thee-dev" },
+      { "id": "linkedin", "label": "LinkedIn", "icon": "bi-linkedin", "url": "https://www.linkedin.com/in/gladys-ndung-u-17038444a" }
+    ]
+  },
+  "stats": [
+    { "value": "120+", "label": "Expert benchmark problems authored", "icon": "bi-journal-check" },
+    { "value": "2,000+", "label": "LLM responses evaluated for RLHF & SFT", "icon": "bi-ui-checks" },
+    { "value": ">95%", "label": "Inter-rater agreement on safety scoring", "icon": "bi-shield-check" },
+    { "value": "6+ yrs", "label": "Production ML & quantitative modeling", "icon": "bi-graph-up-arrow" }
+  ],
+  "focusAreas": [
+    { "id": "evaluation", "label": "LLM evaluation", "icon": "bi-clipboard2-check" },
+    { "id": "benchmarks", "label": "Benchmark design", "icon": "bi-bullseye" },
+    { "id": "safety", "label": "Red teaming & safety", "icon": "bi-shield-lock" },
+    { "id": "quant", "label": "Quant finance & math", "icon": "bi-calculator" },
+    { "id": "ml", "label": "Machine learning", "icon": "bi-cpu" },
+    { "id": "engineering", "label": "Software engineering", "icon": "bi-code-slash" }
+  ],
+  "skills": [
+    {
+      "id": "ai-evaluation",
+      "category": "AI Evaluation",
+      "icon": "bi-clipboard2-data",
+      "areas": ["evaluation", "benchmarks", "safety"],
+      "items": ["LLM evaluation", "RLHF", "SFT data", "Red teaming and adversarial testing", "Benchmark design", "Rubric writing", "Data annotation", "Prompt engineering", "RAG evaluation", "Safety and policy compliance", "Model validation (SR 11-7)"]
+    },
+    {
+      "id": "general-evaluation",
+      "category": "General Evaluation",
+      "icon": "bi-check2-square",
+      "areas": ["evaluation"],
+      "items": ["Rubric-based grading", "Instruction-following checks", "Guideline adherence", "Fact and calculation checking", "Error identification", "Written justifications and feedback", "Peer review and editing", "Clear explanation of complex topics"]
+    },
+    {
+      "id": "domain",
+      "category": "Domain Expertise",
+      "icon": "bi-calculator",
+      "areas": ["quant"],
+      "items": ["Mathematics", "Probability", "Statistics", "Stochastic calculus", "Econometrics", "Financial modeling", "DCF valuation", "Derivatives pricing", "Credit risk modeling (PD/LGD/EAD)", "Portfolio construction"]
+    },
+    {
+      "id": "programming",
+      "category": "Programming",
+      "icon": "bi-code-slash",
+      "areas": ["engineering"],
+      "items": ["Python", "SQL", "R", "TypeScript", "JavaScript", "Java", "Elixir", "Go", "Code review", "Debugging", "pytest", "TDD"]
+    },
+    {
+      "id": "ml-data",
+      "category": "ML & Data",
+      "icon": "bi-cpu",
+      "areas": ["ml"],
+      "items": ["PyTorch", "TensorFlow", "Hugging Face Transformers", "LangChain", "scikit-learn", "XGBoost", "MLflow", "Snowflake", "Airflow", "PostgreSQL", "Redis", "AWS", "Docker", "GitHub Actions"]
+    },
+    {
+      "id": "full-stack",
+      "category": "Full-Stack",
+      "icon": "bi-window-stack",
+      "areas": ["engineering"],
+      "items": ["React", "Next.js", "FastAPI", "Django", "Elixir/Phoenix", "Node.js", "REST APIs"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "ai-eval-contract",
+      "role": "Senior AI Evaluation Specialist & Full-Stack Engineer",
+      "type": "Contract",
+      "org": "Confidential AI-training clients",
+      "location": "Remote",
+      "start": "2025-01",
+      "end": null,
+      "areas": ["evaluation", "benchmarks", "safety", "quant", "engineering"],
+      "highlights": [
+        "Authored 120+ expert-level benchmark problems in derivatives pricing, stochastic calculus, econometrics and probability, each with a verified step-by-step solution and partial-credit rubric, now used in production RLHF training sets.",
+        "Evaluated and annotated 2,000+ LLM responses in finance, data science and software engineering for numerical accuracy and reasoning quality; written justifications are used directly as SFT data.",
+        "Built a taxonomy of 15+ recurring failure patterns found while debugging model-generated Python, SQL and JavaScript (sign errors in Greeks, mixed compounding conventions), cutting reviewer adjudication time ~20%.",
+        "Red-teamed and scored sensitive financial-advice prompts against safety guidelines over 3 calibration rounds, reaching >95% inter-rater agreement on policy adherence, misleading guidance and over-refusal.",
+        "Checked each response for factual accuracy, instruction-following, logical coherence, completeness and policy adherence, and wrote clear, guideline-based explanations of exactly where and why it failed.",
+        "Peer-reviewed 60+ expert benchmark submissions for mathematical correctness, answer uniqueness and rubric clarity before publication.",
+        "Built the team's grading tools (Elixir/Phoenix, PostgreSQL, Redis, React) handling 5,000+ API requests per minute at p99 latency under 120 ms, with role-based access control that passed a security audit with zero critical findings."
+      ]
+    },
+    {
+      "id": "barton-creek",
+      "role": "Senior Data Science Consultant",
+      "type": "Part-time",
+      "org": "Barton Creek Analytics",
+      "location": "Austin, TX (Remote)",
+      "start": "2023-01",
+      "end": "2024-12",
+      "areas": ["ml", "quant", "engineering"],
+      "highlights": [
+        "Architected a multi-factor equity risk engine across 3,000 US tickers, delivering daily volatility and drawdown attribution to 50+ registered investment advisors.",
+        "Deployed a churn-prediction microservice with automated MLflow retraining, increasing retention conversion by 15% and saving ~$400K in annual revenue.",
+        "Raised test coverage from 40% to 85% with automated model-validation checks on every pull request, and cut time to detect data drift across 6 production models from 48 hours to under 2."
+      ]
+    },
+    {
+      "id": "stanford",
+      "role": "Doctoral Researcher & Graduate Teaching Assistant",
+      "type": null,
+      "org": "Stanford University",
+      "location": "Stanford, CA",
+      "start": "2021-09",
+      "end": "2025-06",
+      "areas": ["ml", "quant", "evaluation"],
+      "highlights": [
+        "Researched neural-network and gradient-boosting models for credit default prediction and covariance estimators for high-dimensional portfolios; awarded Best Student Paper.",
+        "Explained complex quantitative topics to 120+ students in Investments and Python for Data Science, supervised 8 master's dissertations, and maintained a backtesting library used by 12 PhD students."
+      ]
+    },
+    {
+      "id": "highland-park",
+      "role": "Quantitative Researcher",
+      "type": null,
+      "org": "Highland Park Capital",
+      "location": "Dallas, TX (Remote)",
+      "start": "2020-06",
+      "end": "2021-08",
+      "areas": ["quant", "ml", "engineering"],
+      "highlights": [
+        "Built PD/LGD credit risk models for 800+ corporate bond issuers, reducing manual analyst overrides by 22%.",
+        "Automated performance attribution in Python and Snowflake SQL, cutting the monthly reporting cycle from 72 hours to under 4.",
+        "Designed Airflow pipelines with automated data-quality checks (99.7% reliability over 14 months) and stress-tested $2B+ multi-asset portfolios."
+      ]
+    },
+    {
+      "id": "trinity",
+      "role": "Quantitative Research Intern",
+      "type": "Internship",
+      "org": "Trinity Quantitative Partners, LP",
+      "location": "Dallas, TX",
+      "start": "2019-05",
+      "end": "2019-08",
+      "areas": ["quant", "engineering"],
+      "highlights": [
+        "Built a GARCH volatility forecasting module and a vectorized derivatives backtester (under 0.1% P&L deviation from historical execution)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "quantprice",
+      "name": "quantprice",
+      "kind": "Open-source Python library",
+      "summary": "Options-pricing library that doubles as a generator of verified ground-truth problems for evaluating LLM mathematical reasoning.",
+      "areas": ["benchmarks", "evaluation", "quant", "engineering"],
+      "highlights": [
+        "Black-Scholes-Merton prices and Greeks, CRR binomial trees (European and American), Monte Carlo with antithetic and control variates, barrier, lookback and geometric Asian options, and implied volatility (Newton with Brent fallback).",
+        "Benchmark generator for 11 topics with a JSONL schema, tolerance bands and worked solutions, plus a grader that reports accuracy by topic and difficulty; a 330-problem dataset is committed.",
+        "Every benchmark answer is re-derived by independent code (50-digit mpmath, a plain-loop tree, root finding); the largest disagreement measured is 3.4e-9 of the grading band.",
+        "Cross-validated against QuantLib, and every formula cites its source; the README lists what the library does not handle."
+      ],
+      "tech": ["Python", "NumPy", "SciPy", "pytest", "Hypothesis", "mpmath", "GitHub Actions"],
+      "repo": "https://github.com/Gladys-thee-dev/quantprice",
+      "icon": "bi-graph-up"
+    },
+    {
+      "id": "eval-studio",
+      "name": "eval-studio",
+      "kind": "Full-stack web app",
+      "summary": "Web app for scoring LLM responses against weighted rubrics, comparing responses side by side and exporting the results.",
+      "areas": ["evaluation", "safety", "engineering"],
+      "highlights": [
+        "Rubric scoring: each criterion scored 1-5 with a required written justification, issue flags for hallucination, policy and refusal, and a weighted score.",
+        "Side-by-side comparison with randomised, unlabelled left/right order to reduce position bias, a five-point preference with reasoning, and optional rubric scoring of both sides.",
+        "JSON and CSV export with protection against spreadsheet formula injection; a mock model by default, with optional Claude responses through the Anthropic API.",
+        "Tested with pytest, Vitest and a Playwright browser walkthrough; the Docker setup is built, health-checked and exercised end to end in CI."
+      ],
+      "tech": ["Next.js", "TypeScript", "Tailwind", "FastAPI", "SQLAlchemy", "SQLite", "Docker", "Playwright"],
+      "repo": "https://github.com/Gladys-thee-dev/eval-studio",
+      "icon": "bi-clipboard2-check"
+    }
+  ],
+  "recognition": [
+    {
+      "id": "best-paper",
+      "title": "Best Student Paper Award",
+      "org": "Western Finance & Machine Learning Symposium",
+      "year": 2023,
+      "detail": "\"Neural Architectures for High-Dimensional Credit Risk Estimation\"",
+      "icon": "bi-award"
+    },
+    {
+      "id": "speaker",
+      "title": "Invited Speaker",
+      "org": "AI Alignment in Finance Summit",
+      "year": 2024,
+      "detail": "\"Red-Teaming LLMs for Stochastic Calculus and Derivatives Pricing\"",
+      "icon": "bi-mic"
+    },
+    {
+      "id": "reviewer",
+      "title": "Peer Reviewer",
+      "org": "Journal of Financial Data Science and IEEE conferences on computational intelligence in finance",
+      "year": null,
+      "detail": null,
+      "icon": "bi-journal-text"
+    }
+  ],
+  "education": [
+    {
+      "id": "phd",
+      "degree": "PhD, Computational Finance",
+      "note": "Fully funded fellowship",
+      "school": "Stanford University",
+      "location": "Stanford, CA",
+      "start": 2021,
+      "end": 2025,
+      "detail": "Dissertation: \"Machine Learning Methods for Credit Risk and High-Dimensional Portfolio Estimation\""
+    },
+    {
+      "id": "msc",
+      "degree": "MSc, Computer Science & Data Science",
+      "note": "Distinction",
+      "school": "San Jose State University",
+      "location": "San Jose, CA",
+      "start": 2020,
+      "end": 2021,
+      "detail": null
+    },
+    {
+      "id": "bs",
+      "degree": "BS, Data Science & Finance",
+      "note": "Double major, minor in Software Engineering",
+      "school": "University of Texas at Arlington",
+      "location": "Arlington, TX",
+      "start": 2016,
+      "end": 2020,
+      "detail": null
+    }
+  ],
+  "certifications": [
+    { "id": "gcp-de", "name": "Google Cloud Professional Data Engineer", "year": 2025 },
+    { "id": "tf-dev", "name": "TensorFlow Developer Certificate", "year": 2025 },
+    { "id": "rai", "name": "Responsible AI Principles (Google Cloud)", "year": 2025 }
+  ]
+}
